@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    height: 100vh;
+    width: 100vw;
+   background-image:url(pexels-rovenimagescom-949587.jpg);
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+    
+
+}
+.container{
+    width: 500px;
+    height: 300px;
+  
+    transform-style: preserve-3d;
+    /* position: absolute; */
+    transition: all 1s linear;
+    border-radius: 20px;
+    
+    
+   
+}
+
+.front{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    background-image: linear-gradient( 112.6deg,  rgba(56,24,40,1) -10.7%, rgba(23,148,185,1) 100.2% );
+    
+}
+.back{
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: linear-gradient( 112.6deg,  rgba(56,24,40,1) -10.7%, rgba(23,148,185,1) 100.2% );
+   
+    
+}
+.container:hover{
+    transform: rotateY(180deg);
+    
+
+}
+.div1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 120px;
+  
+}
+.div11{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+#masterp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: white;
+}
+img{
+    width:70px ;
+    
+    
+}
+.div2{
+    width: 100%;
+    height: 177px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    padding-left: 33px;
+}
+.div21
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  
+
+}
+#cardnumber{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#no,#name{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+.div22
+{    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.div12{
+    margin-right: 28px;
+}
+.com
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.divback1,.divback2{
+    width: 100%;  
+}
+.divback2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-bottom: 70px;
+   gap: 8px;
+}
+.backdiv1{
+    width: 100%;
+    height: 30px;
+    
+    text-align: center;
+    margin-top: 10px;
+}
+.backdiv2{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
+}
+.backdiv3{
+    width: 80%;
+    height: 50px;
+  
+}
+.backdiv4{
+    width: 80%;
+    height: 50px;
+
+   
+}
+#slip
+{
+    width: 400px;
+}
+#backp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
